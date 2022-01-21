@@ -1,0 +1,83 @@
+/* utilities */
+
+
+/* main classes */
+.collections-view__main-container {
+    display: grid;
+    grid-template-columns: 225px 1fr;
+    background: black;    
+}
+
+.collections-view__navigation-container {
+    margin: 0 auto;
+    color: var(--white-color);
+    font-weight: 300;
+}
+
+.collections-view__nav-links-container {
+    position: -webkit-sticky; /* Safari */ 
+    position: sticky;
+    top: 100px;
+}
+
+
+
+.collections-view__navigation-container h3 {
+    font-weight: 400;
+    margin-top: 2.7rem;
+    margin-bottom: .2rem;
+}
+
+/* .collections-view__navigation-container li {
+    margin-left: 2rem;
+    margin-bottom: .2rem;
+    padding-left: .4rem;
+    opacity: .5;
+    cursor: pointer;
+    border-left: 2px solid transparent;
+} */
+
+
+
+
+.collectionView__li {
+    margin-left: 2rem;
+    margin-bottom: .2rem;
+    padding-left: .4rem;
+    opacity: .7;
+    cursor: pointer;
+    border-left: 2px solid transparent;
+}
+
+.cv__active-li {
+    font-weight: 500;
+    opacity: .9;
+    border-left: 2px solid var(--white-color);
+    
+
+}
+
+.collectionView__li:focus,
+.collectionView__li:hover {
+    opacity: .9;
+    border-left: 2px solid var(--white-color);
+}
+
+
+
+
+.collection-view__view-main-container {
+       background: linear-gradient(to right bottom, #111111, #5E5E5E);
+   background-color: #5E5E5E;
+
+    /* border: 2px solid red; */
+
+
+
+    
+    
+    
+ 
+    
+}
+

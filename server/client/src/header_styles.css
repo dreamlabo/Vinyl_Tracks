@@ -1,0 +1,96 @@
+
+/* main css resets found in main_styles.css */
+
+.main-nav-bar__container {
+    text-transform: uppercase;
+    background-color: var(--accent-color);
+    width: 100%;
+    
+   
+    position: -webkit-sticky; /* Safari */  
+    position: sticky;
+    left: 0;
+    top: 0;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+.main-nav-bar__links-container {
+    width: min(100%, 1700px);
+    padding: .2rem 3rem;
+ 
+
+
+}
+
+.main-nav-bar__logo {
+    font-size: 1.8rem;
+    white-space: nowrap;
+    opacity: .9;
+}
+
+
+.main-nav-bar__links {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+.main-nav-bar__link {
+    margin: 0 2em;
+    padding: 0 .5em;
+    opacity: .8;
+    border: 3px solid transparent;
+}
+
+.main-nav-bar__link:hover {
+    border-bottom: 3px solid var(--white-color);
+    opacity: .8;
+    transition: all 250ms ease-in-out;
+}
+
+
+
+.main-nav-bar__links a:hover {
+    /* color: black; */
+}
+
+.main-nav-bar__signin-button {
+
+    border-radius: 30px;
+    background-color: black;
+    padding: .2em 1.5em;
+    /* margin-right: 3em; */
+    margin-left: 1em;
+    border: 2px solid black;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 100ms ease-in-out;
+}
+
+
+.main-nav-bar__signin-button:hover  {
+    background-color: var(--gray-color); 
+    border: 2px solid white;
+
+}
+
+.main-nav-bar__signin-button:hover a {
+    color: white;
+   
+}
+
+
+
+/* .main-nav-bar__links:last-child {
+    padding: 0 em ;
+    margin: 0;
+} */
+
