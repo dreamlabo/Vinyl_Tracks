@@ -11,7 +11,7 @@ const addAlbum =  async () => {
 
     await Axios.post('http://localhost:5000/api/addAlbumToCollection', {
             artistName: "Dream Theater",
-            albumName: "Images and Words"  
+            albumName: "Awake"  
             }, {
                 headers: {
                     'Content-Type': 'application/json'
